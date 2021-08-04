@@ -9,7 +9,8 @@ const initialState = {
     mnemonic: false,
     sentence: false,
     failed_words: [],
-    random_remaining_words: []
+    random_remaining_words: [],
+    rrw_len: 0
 }
 
 const reducer = (state= initialState, action) => {
@@ -71,7 +72,8 @@ const reducer = (state= initialState, action) => {
             }
             return {
                 ...state,
-                random_remaining_words: random_remaining_words
+                random_remaining_words: random_remaining_words,
+                rrw_len: random_remaining_words.length
             }
 
         default: return state;
