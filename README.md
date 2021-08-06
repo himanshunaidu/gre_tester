@@ -5,7 +5,7 @@ React js Frontend for an application to test GRE Vocabulary
 Refer to https://github.com/himanshunaidu/gre_tester_backend.
 
 ## Database
-(Main schema of the DB will be added here)
+Main schema in db/DB_Model.mwb
 
 Note:-
 Refer to https://github.com/himanshunaidu/word_saver Python application to store GRE words, to check how words were added
