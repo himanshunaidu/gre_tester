@@ -1,3 +1,13 @@
+.AnswerContainer {
+  text-align: center;
+}
+
 .Answer {
-    text-align: center;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+
+.AnswerComponent {
+  text-align: left;
 }
